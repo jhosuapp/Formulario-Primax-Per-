@@ -136,7 +136,99 @@ getSelectDepartamentos.addEventListener("change", function () {
             reUseFor();
         break; 
         case 'Ancash':
-            var arrayProvincias = ["HUARAZ", "AIJA", "ASUNCION", "BOLOGNESI", "CARHUAZ", "CARLOS FERMIN FITZCARRAL", "CORONGO", "HUARMEY", "HUAYLAS", "MARISCAL LUZURIAGA", "OCROS", "PALLASCA", "POMABAMBA", "RECUAY", "SANTA", "SIHUAS", "YUNGAY",];
+            var arrayProvincias = ["HUARAZ", "AIJA", "ASUNCION", "BOLOGNESI", "CARHUAZ", "CARLOS FERMIN FITZCARRAL", "CORONGO", "HUARMEY", "HUAYLAS", "MARISCAL LUZURIAGA", "OCROS", "PALLASCA", "POMABAMBA", "RECUAY", "SANTA", "SIHUAS", "YUNGAY"];
+            reUseFor();
+        break;
+        case 'Apurimac':
+            var arrayProvincias = ["ABANCAY", "ANDAHUAYLAS", "ANTABAMBA", "COTABAMBAS", "CHINCHEROS", "GRAU"];
+            reUseFor();
+        break;
+        case 'Arequipa':
+            var arrayProvincias = ["AREQUIPA", "CAMANA", "CARAVELI", "CASTILLA", "CAYLLOMA", "CONDESUYOS", "ISLAY", "LA UNION"];
+            reUseFor();
+        break;
+        case 'Ayacucho':
+            var arrayProvincias = ["HUAMANGA", "CANGALLO", "HUANCA SANCOS", "HUANTA", "LA MAR", "LUCANAS", "PARINACOCHAS", "PAUCAR DEL SARA SARA", "SUCRE", "VICTOR FAJARDO", "VILCAS HUAMAN"];
+            reUseFor();
+        break;
+        case 'Cajamarca':
+            var arrayProvincias = ["CAJAMARCA", "CELENDIN", "CHOTA", "CONTUMAZA", "CUTERVO", "HUALGAYOC", "JAEN", "SAN IGNACIO", "SAN MARCOS", "SAN MIGUEL", "SAN PABLO"];
+            reUseFor();
+        break;
+        case 'Callao':
+            var arrayProvincias = ["CALLAO"];
+            reUseFor();
+        break;
+        case 'Cusco':
+            var arrayProvincias = ["CUSCO", "ACOMAYO", "ANTA", "CALCA", "CANAS", "CANCHIS", "CHUMBIVILCAS", "ESPINAR", "LA CONVENCION", "PARURO", "PAUCARTAMBO", "QUISPICANCHI", "URUBAMBA"];
+            reUseFor();
+        break;
+        case 'Huancavelica':
+            var arrayProvincias = ["HUANCAVELICA", "ACOBAMBA", "ANGARAES", "CASTROVIRREYNA", "CHURCAMPA", "HUAYTARA", "TAYACAJA"];
+            reUseFor();
+        break;
+        case 'Huanuco':
+            var arrayProvincias = ["HUANUCO", "AMBO", "DOS DE MAYO", "HUAMALIES", "LEONCIO PRADO", "MARAÑON", "PACHITEA", "PUERTO INCA", "LAURICOCHA", "YAROWILCA"];
+            reUseFor();
+        break;
+        case 'Ica':
+            var arrayProvincias = ["ICA", "CHINCHA", "NASCA", "PALPA", "PISCO"];
+            reUseFor();
+        break;
+        case 'Junín':
+            var arrayProvincias = ["HUANCAYO", "CONCEPCION", "CHANCHAMAYO", "JAUJA", "JUNIN", "SATIPO", "TARMA", "YAULI", "CHUPACA"];
+            reUseFor();
+        break;
+        case 'La Libertad':
+            var arrayProvincias = ["TRUJILLO", "ASCOPE", "BOLIVAR", "CHEPEN", "OTUZCO", "PACASMAYO", "PATAZ", "SANCHEZ CARRION", "SANTIAGO DE CHUCO", "GRAN CHIMU", "VIRU"];
+            reUseFor();
+        break;
+        case 'Lambayeque':
+            var arrayProvincias = [ "CHICLAYO", "FERREÑAFE", "LAMBAYEQUE"];
+            reUseFor();
+        break;
+        case 'Lima':
+            var arrayProvincias = ["LIMA", "BARRANCA", "CAJATAMBO", "CANTA", "CAÑETE", "HUARAL", "HUAROCHIRI", "HUAURA", "OYON", "YAUYOS"];
+            reUseFor();
+        break;
+        case 'Loreto':
+            var arrayProvincias = ["MAYNAS", "ALTO AMAZONAS", "LORETO", "MARISCAL RAMON CASTILLA", "REQUENA", "UCAYALI", "DATEM DEL MARAÑON", "PUTUMAYO"];
+            reUseFor();
+        break;
+        case 'Madre de Dios':
+            var arrayProvincias = ["TAMBOPATA", "MANU"];
+            reUseFor();
+        break;
+        case 'Moquegua':
+            var arrayProvincias = ["MARISCAL NIETO", "GENERAL SANCHEZ CERRO", "ILO"];
+            reUseFor();
+        break;
+        case 'Pasco':
+            var arrayProvincias = ["PASCO", "DANIEL ALCIDES CARRION", "OXAPAMPA"];
+            reUseFor();
+        break;
+        case 'Piura':
+            var arrayProvincias = ["PIURA", "AYABACA", "HUANCABAMBA", "MORROPON", "PAITA", "SULLANA", "SECHURA"];
+            reUseFor();
+        break;
+        case 'Puno':
+            var arrayProvincias = ["PUNO", "AZANGARO", "CARABAYA", "CHUCUITO", "EL COLLAO", "HUANCANE", "LAMPA", "MELGAR", "MOHO", "SAN ANTONIO DE PUTINA", "SAN ROMAN", "SANDIA", "YUNGUYO"];
+            reUseFor();
+        break;
+        case 'San Martín':
+            var arrayProvincias = ["MOYOBAMBA", "BELLAVISTA", "EL DORADO", "HUALLAGA", "LAMAS", "MARISCAL CACERES", "PICOTA", "RIOJA", "SAN MARTIN", "TOCACHE"];
+            reUseFor();
+        break;
+        case 'Tacna':
+            var arrayProvincias = ["TACNA", "CANDARAVE", "TARATA"];
+            reUseFor();
+        break;
+        case 'Tumbes':
+            var arrayProvincias = ["TUMBES", "ZARUMILLA"];
+            reUseFor();
+        break;
+        case 'Ucayali':
+            var arrayProvincias = ["CORONEL PORTILLO", "ATALAYA", "PADRE ABAD", "PURUS"];
             reUseFor();
         break;
         }
