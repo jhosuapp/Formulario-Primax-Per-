@@ -1,0 +1,309 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.primax-go__background{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    padding: 40px 0;
+}
+
+.primax-go__contenedor{
+    width: 85%;
+    max-width: 1250px;
+    margin: auto;
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+
+.primax-go__imagen{
+    max-width: 600px;
+    margin-top: 100px;
+    width: 100%;
+}
+
+.primax-go__left{
+    width: 60%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.primax-go__right{
+    width: 40%;
+    max-width: 400px;
+}
+
+.primax-go__bloque{
+    max-width: 380px;
+    margin: auto;
+    text-align: center;
+}
+
+.primax-go__left-descripcion{
+    color: #fff;
+    font-size: 14px !important;
+
+}
+.primax-go__left-descripcion a{
+    color: #fff;
+    text-decoration: underline;
+    font-weight: 600;
+}
+.primax-go__left-descripcion a:hover{
+    text-decoration: none;
+}
+.primax-go__titulo{
+    font-size: 38px;
+    color: #fff;
+    line-height: 1;
+    margin-top: 60px;
+    text-transform: uppercase;
+}
+.primax-go__descripcion{
+    color: #fff;
+    font-size: 18.5px;
+    margin: 30px 0;
+}
+.primax-go__descripcion-form{
+    color: #fff;
+    max-width: 405px;
+    margin: 30px auto;
+    font-size: 14px;
+}
+.primax-go__mobile{
+    display: none;
+}
+
+/* fomrulario */
+
+
+.form__primax-go{
+    /* width: 100%;
+    max-width: 350px; */
+    margin: auto;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.form__primax-go__select{
+    border: none;
+    border-bottom: 2px solid #979797;
+    color: #5f5f5f !important;
+    background-color: transparent !important;
+    font-size: 17px;
+    padding: 10px 0;
+    outline: inherit;
+    border-radius: 0;
+    width: 100%;
+}
+
+.form__primax-go__input{
+    border: none;
+    border-bottom: 2px solid #979797;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 17px;
+    color: #5f5f5f !important;
+    outline: inherit;
+}
+.form__primax-go__input::placeholder{
+    color: #5f5f5f !important;
+}
+
+.form__primax-go__bloque{
+    position: relative;
+}
+.form__primax-go__texto{
+    color: #5f5f5f;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.primax-go__bloque-terminos{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.primax-go__bloque-terminos p{
+    font-size: 14px;
+    color: #5f5f5f !important;
+}
+.primax-go__bloque-terminos a{
+    font-size: 14px;
+    color: #ff6900 !important;
+    text-decoration: underline;
+}
+.primax-go__bloque-terminos a:hover{
+    text-decoration: none;
+}
+
+.form__primax-go__enviar{
+    display: flex;
+    justify-content: center;
+    /* margin-bottom: 20px; */
+}
+
+.form__primax-go__submit{
+    outline: inherit;
+    background-color: #ff6900;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 50px;
+    font-weight: bolder;
+    font-size: 22px;
+    cursor: pointer;
+    transition: .3s all ease;
+}
+.form__primax-go__submit:hover{
+    opacity: .8;
+}
+.form__primax-go__bloque-validacion{
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: rgb(209, 5, 5);
+    border-radius: 5px;
+    opacity: 0;
+    height: 0;
+    padding: 0;
+    transition: .3s all ease;
+}
+.form__primax-go__bloque-validacion.active{
+    padding: 5px 10px;
+    opacity: 1;
+    height: auto;
+}
+.form__primax-go__bloque-validacion--icono{
+    color: #fff;
+    font-size: 20px;
+}
+.form__primax-go__bloque-validacion--texto{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.form__primax-go__bloque--enviado{
+    text-align: center;
+    color: rgb(26, 209, 26);
+    display: none;
+}
+.form__primax-go__bloque--enviado.active{
+    display: block;
+}
+
+/* VALIDACION FORM */
+
+.form__primax-go__validacion{
+    font-size: 12px;
+    color: rgb(209, 5, 5);
+    margin-top: 5px;
+    display: none;
+}
+.form__primax-go__icono,
+.form__primax-go__icono--bien{
+    font-size: 16px;
+    position: absolute;
+    right: 3px;
+    top: 12px;
+    opacity: 0;
+}
+.form__primax-go__icono{
+    color: rgb(209, 5, 5);
+}
+.form__primax-go__icono--bien{
+    color: rgb(26, 209, 26);
+}
+
+.form__primax-go__bloque.mal .form__primax-go__validacion{
+    display: block;
+}
+.form__primax-go__bloque.mal .form__primax-go__icono{
+    opacity: 1;
+}
+.form__primax-go__bloque.mal .form__primax-go__input{
+    border-bottom: 2px solid rgb(209, 5, 5);
+    color: rgb(209, 5, 5) !important;
+}
+.form__primax-go__bloque.mal .form__primax-go__input::placeholder{
+    color: rgb(209, 5, 5) !important;
+}
+.form__primax-go__bloque.bien .form__primax-go__icono--bien{
+    opacity: 1;
+}
+.form__primax-go__contenedor-select{
+    position: relative;
+}
+.form__primax-go__contenedor-select.bien-select .form__primax-go__icono--bien{
+    opacity: 1;
+    color: rgb(26, 209, 26);
+}
+/* .form__primax-go__contenedor-select.mal {
+
+}
+.form__primax-go__contenedor-select.mal {
+
+}
+.form__primax-go__contenedor-select.mal {
+
+} */
+/* .form__primax-go__bloque.bien .form__primax-go__input{
+    border-bottom: 2px solid rgb(26, 209, 26);
+    color: rgb(26, 209, 26) !important;
+}
+.form__primax-go__bloque.bien .form__primax-go__input::placeholder{
+    color: rgb(26, 209, 26) !important;
+} */
+
+
+@media(max-width: 950px){
+    .primax-go__contenedor{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .primax-go__left,
+    .primax-go__right{
+        width: 100%;
+    }
+    .primax-go__left{
+        justify-content: center;
+        align-items: center;
+    }
+    .primax-go__mobile{
+        display: block;
+    }
+    .primax-go__desktop{
+        display: none;
+    }
+    .primax-go__imagen{
+        margin-top: 40px;
+    }
+    .primax-go__logo{
+        margin-top: 60px;
+    }
+    .form__primax-go{
+        margin-top: -60px;
+    }
+}
+@media(max-width: 600px){
+    .primax-go__titulo{
+        font-size: 32px;
+    }
+    .primax-go__descripcion{
+        font-size: 16.5px;
+    }
+}

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <div class="primax-go__background" style="background-image: url('https://primax.com.pe/wp-content/uploads/2022/06/250522_LANDING_01.png')">
+        <div class="primax-go__contenedor">
+            <div class="primax-go__left">
+                <img src="https://primax.com.pe/wp-content/uploads/2022/06/Objeto-inteligente-vectorial.png" alt="" class="primax-go__logo">
+                <div class="primax-go__bloque primax-go__mobile">
+                    <h1 class="primax-go__titulo">Bienvenido a tu convenio Primax</h1>
+                    <p class="primax-go__descripcion"><b>Completa los datos</b> para acceder a <b>tu descuento</b> en combustible</p>
+                </div>
+                <img class="primax-go__imagen" src="https://primax.com.pe/wp-content/uploads/2022/06/imagenes@125x.png" alt="">
+                <p class="primax-go__left-descripcion primax-go__desktop">*Aplica solo en las estaciones de la red propia de Primax. Revisa las estaciones <a href="/encuentranos/">aquí</a></p>
+            </div>
+            <div class="primax-go__right">
+                <div class="primax-go__bloque primax-go__desktop">
+                    <h1 class="primax-go__titulo">Bienvenido a tu convenio Primax</h1>
+                    <p class="primax-go__descripcion"><b>Completa los datos</b> para acceder a <b>tu descuento</b> en combustible</p>
+                </div>
+                <form action="" class="form__primax-go">
+
+                    <div class="form__primax-go__contenedor-select">
+                        <select name="empresa" id="empresa" class="form__primax-go__select">
+                            <option value="" class="form__primax-go__option">Empresa/Asociación</option>
+                            <option value="" class="form__primax-go__option">COESTI S.A.</option>
+                            <option value="" class="form__primax-go__option">CORPORACION PRIMAX S.A.</option>
+                        </select>
+                        <i class="form__primax-go__icono fa-solid fa-circle-xmark"></i>
+                        <i class="form__primax-go__icono--bien  fas fa-check-circle form-ap__icono"></i>
+                    </div>
+
+
+                    <div class="form__primax-go__bloque form__primax-go__bloque--nombre">
+                        <input type="text" placeholder="Nombre" id="nombre" name="nombre" class="form__primax-go__input">
+                        <i class="form__primax-go__icono fa-solid fa-circle-xmark"></i>
+                        <i class="form__primax-go__icono--bien  fas fa-check-circle form-ap__icono"></i>
+                        <p class="form__primax-go__validacion">Por favor ingrese su nombre</p>
+                    </div>
+
+                    <div class="form__primax-go__bloque form__primax-go__bloque--apellido">
+                        <input type="text" placeholder="Apellido" id="apellido" name="apellido" class="form__primax-go__input">
+                        <i class="form__primax-go__icono fa-solid fa-circle-xmark"></i>
+                        <i class="form__primax-go__icono--bien  fas fa-check-circle form-ap__icono"></i>
+                        <p class="form__primax-go__validacion">Por favor ingrese su apellido</p>
+                    </div>
+
+                    <div class="form__primax-go__bloque form__primax-go__bloque--dni">
+                        <input type="text" placeholder="DNI o CE" id="dni" name="dni" class="form__primax-go__input">
+                        <i class="form__primax-go__icono fa-solid fa-circle-xmark"></i>
+                        <i class="form__primax-go__icono--bien  fas fa-check-circle form-ap__icono"></i>
+                        <p class="form__primax-go__validacion">Por favor ingrese su dni</p>
+                    </div>
+
+                    <div class="form__primax-go__bloque form__primax-go__bloque--telefono">
+                        <input type="text" placeholder="Télefono" id="telefono" name="telefono" class="form__primax-go__input">
+                        <i class="form__primax-go__icono fa-solid fa-circle-xmark"></i>
+                        <i class="form__primax-go__icono--bien  fas fa-check-circle form-ap__icono"></i>
+                        <p class="form__primax-go__validacion">Por favor ingrese su telefono</p>
+                    </div>
+
+                    <div class="form__primax-go__bloque form__primax-go__bloque--correo">
+                        <input type="email" placeholder="Correo" id="correo" name="correo" class="form__primax-go__input">
+                        <i class="form__primax-go__icono fa-solid fa-circle-xmark"></i>
+                        <i class="form__primax-go__icono--bien  fas fa-check-circle form-ap__icono"></i>
+                        <p class="form__primax-go__validacion">Por favor ingrese su correo</p>
+                    </div>
+
+                    <div class="form__primax-go__bloque form__primax-go__bloque--placa">
+                        <input type="text" placeholder="Placa" id="placa" name="placa" class="form__primax-go__input">
+                        <i class="form__primax-go__icono fa-solid fa-circle-xmark"></i>
+                        <p class="form__primax-go__texto"*>Ingrese la placa sin guión</p>
+                        <i class="form__primax-go__icono--bien  fas fa-check-circle form-ap__icono"></i>
+                        <p class="form__primax-go__validacion">Por favor ingrese su placa sin guión</p>
+                    </div>
+                    
+                    <div class="form__primax-go__contenedor-select">
+                        <select name="departamento" id="departamento" class="form__primax-go__select">
+                            <option value="">Departamento</option>
+                            <option value="Amazonas">Amazonas</option>
+                            <option value="Ancash">Ancash</option>
+                            <option value="Apurimac">Apurimac</option>
+                            <option value="Arequipa">Arequipa</option>
+                            <option value="Ayacucho">Ayacucho</option>
+                            <option value="Cajamarca">Cajamarca</option>
+                            <option value="Callao">Callao</option>
+                            <option value="Cusco">Cusco</option>
+                            <option value="Huancavelica">Huancavelica</option>
+                            <option value="Huanuco">Huanuco</option>
+                            <option value="Ica">Ica</option>
+                            <option value="Junín">Junín</option>
+                            <option value="La Libertad">La Libertad</option>
+                            <option value="Lambayeque">Lambayeque</option>
+                            <option value="Lima">Lima</option>
+                            <option value="Loreto">Loreto</option>
+                            <option value="Madre de Dios">Madre de Dios</option>
+                            <option value="Moquegua">Moquegua</option>
+                            <option value="Pasco">Pasco</option>
+                            <option value="Piura">Piura</option>
+                            <option value="Puno">Puno</option>
+                            <option value="San Martín">San Martín</option>
+                            <option value="Tacna">Tacna</option>
+                            <option value="Tumbes">Tumbes</option>
+                            <option value="Ucayali">Ucayali</option>
+                        </select>
+                        <i class="form__primax-go__icono fa-solid fa-circle-xmark"></i>
+                        <i class="form__primax-go__icono--bien  fas fa-check-circle form-ap__icono"></i>
+                    </div>
+
+                    <select name="provincia" id="provincia" class="form__primax-go__select">
+                        <option value="" class="form__primax-go__option">Provincia</option>
+                    </select>
+
+                    <!-- <select name="empresa" id="" class="form__primax-go__select">
+                        <option value="" class="form__primax-go__option">COESTI S.A.</option>
+                        <option value="" class="form__primax-go__option">CORPORACION PRIMAX S.A.</option>
+                    </select> -->
+
+                    <div class="form__primax-go__bloque form__primax-go__bloque--direccion">
+                        <input type="text" placeholder="Dirección" id="direccion" name="direccion" class="form__primax-go__input">
+                        <i class="form__primax-go__icono fa-solid fa-circle-xmark"></i>
+                        <i class="form__primax-go__icono--bien  fas fa-check-circle form-ap__icono"></i>
+                        <p class="form__primax-go__validacion">Por favor ingrese su direccion</p>
+                    </div>
+                    
+                    <div class="form__primax-go__contenedor-select">
+                        <select name="marca" id="marca" class="form__primax-go__select">
+                            <option value="" class="form__primax-go__option">Marca de vehículo</option>
+                            <option value="Audi" class="form__primax-go__option">Audi</option>
+                            <option value="BMW" class="form__primax-go__option">BMW</option>
+                            <option value="Changan" class="form__primax-go__option">Changan</option>
+                            <option value="Chevrolet" class="form__primax-go__option">Chevrolet</option>
+                            <option value="Citroen" class="form__primax-go__option">Citroen</option>
+                            <option value="Fiat" class="form__primax-go__option">Fiat</option>
+                            <option value="Ford" class="form__primax-go__option">Ford</option>
+                            <option value="Haval" class="form__primax-go__option">Haval</option>
+                            <option value="Honda" class="form__primax-go__option">Honda</option>
+                            <option value="Hyundai" class="form__primax-go__option">Hyundai</option>
+                            <option value="Jac" class="form__primax-go__option">Jac</option>
+                            <option value="Jeep" class="form__primax-go__option">Jeep</option>
+                            <option value="Kia" class="form__primax-go__option">Kia</option>
+                            <option value="Land Rover" class="form__primax-go__option">Land Rover</option>
+                            <option value="Lexus" class="form__primax-go__option">Lexus</option>
+                            <option value="Maserati" class="form__primax-go__option">Maserati</option>
+                            <option value="Mazda" class="form__primax-go__option">Mazda</option>
+                            <option value="Mercedes-Benz" class="form__primax-go__option">Mercedes-Benz</option>
+                            <option value="MG" class="form__primax-go__option">MG</option>
+                            <option value="Mini" class="form__primax-go__option">Mini</option>
+                            <option value="Mitsubishi" class="form__primax-go__option">Mitsubishi</option>
+                            <option value="Nissan" class="form__primax-go__option">Nissan</option>
+                            <option value="Peugeot" class="form__primax-go__option">Peugeot</option>
+                            <option value="Porsche" class="form__primax-go__option">Porsche</option>
+                            <option value="Renault" class="form__primax-go__option">Renault</option>
+                            <option value="Seat" class="form__primax-go__option">Seat</option>
+                            <option value="SsangYong" class="form__primax-go__option">SsangYong</option>
+                            <option value="Subaru" class="form__primax-go__option">Subaru</option>
+                            <option value="Suzuki" class="form__primax-go__option">Suzuki</option>
+                            <option value="Toyota" class="form__primax-go__option">Toyota</option>
+                            <option value="Volkswagen" class="form__primax-go__option">Volkswagen</option>
+                            <option value="Volvo" class="form__primax-go__option">Volvo</option>
+                            <option value="Otros" class="form__primax-go__option">Otros</option>
+                        </select>
+                        <i class="form__primax-go__icono fa-solid fa-circle-xmark"></i>
+                        <i class="form__primax-go__icono--bien  fas fa-check-circle form-ap__icono"></i>
+                    </div>
+
+                    <div class="form__primax-go__contenedor-select">
+                        <select name="tipo" id="tipo" class="form__primax-go__select">
+                            <option value="" class="form__primax-go__option">Tipo de vehículo</option>
+                            <option value="Auto Sedan" class="form__primax-go__option">Auto Sedan</option>
+                            <option value="Camioneta" class="form__primax-go__option">Camioneta</option>
+                            <option value="Moto" class="form__primax-go__option">Moto</option>
+                            <option value="Van" class="form__primax-go__option">Van</option>
+                            <option value="Camión" class="form__primax-go__option">Camión</option>
+                        </select>
+                        <i class="form__primax-go__icono fa-solid fa-circle-xmark"></i>
+                        <i class="form__primax-go__icono--bien  fas fa-check-circle form-ap__icono"></i>
+                    </div>
+
+                    <div class="form__primax-go__contenedor-select">
+                        <select name="combustible" id="combustible" class="form__primax-go__select">
+                            <option value="" class="form__primax-go__option">Combustible</option>
+                            <option value="" class="form__primax-go__option">G-Prix (97)</option>
+                            <option value="" class="form__primax-go__option">G-Prix (95)</option>
+                            <option value="" class="form__primax-go__option">G-Prix (90)</option>
+                            <option value="" class="form__primax-go__option">Diesel</option>
+                        </select>
+                        <i class="form__primax-go__icono fa-solid fa-circle-xmark"></i>
+                        <i class="form__primax-go__icono--bien  fas fa-check-circle form-ap__icono"></i>
+                    </div>
+
+                    <div class="primax-go__bloque-terminos">
+                        <input type="checkbox" name="terminos" id="terminos">
+                        <p>He leído y acepto los <a href="">Términos y Condiciones</a></p>
+                    </div>
+
+                    <div class="form__primax-go__enviar">
+                        <button type="submit" class="form__primax-go__submit">Enviar</button>
+                    </div>
+                    
+                    <div class="form__primax-go__bloque--enviado">
+                        <p class="form__primax-go__enviado">El formulario se ha enviado correctamente</p>
+                    </div>
+
+                    <div class="form__primax-go__bloque-validacion">
+                        <i class="form__primax-go__bloque-validacion--icono fa-solid fa-triangle-exclamation"></i>
+                        <p class="form__primax-go__bloque-validacion--texto">Por favor llene todos los campos correctamente</p>
+                    </div>
+
+                </form>
+                <p class="primax-go__descripcion-form">La configuración del convenio toma 5 días en promedio, luego de recibir la información requerida en el presente formulario. Considerar para cada placa un correo diferente, debido a que es a través de esta validación que se activa el descuento</p>
+                <p class="primax-go__left-descripcion primax-go__mobile">*Aplica solo en las estaciones de la red propia de Primax. Revisa las estaciones <a href="/encuentranos/">aquí</a></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="mainscript.js"></script>
+    <script src="https://kit.fontawesome.com/2e5d66409c.js" crossorigin="anonymous"></script>
+</body>
+</html>
