@@ -588,260 +588,416 @@ getSelecForUseCities.addEventListener("change", function () {
             var arrayCiudades = ['Distrito', 'ACOSTAMBO', 'ACRAQUIA', 'AHUAYCHA', 'COLCABAMBA', 'DANIEL HERNANDEZ', 'HUACHOCOLPA', 'HUARIBAMBA', 'SALCABAMBA', 'SALCAHUASI', 'TINTAY PUNCU', 'ANDAYMARCA', 'ROBLE', 'PICHOS', 'SANTIAGO DE TUCUMA'];
             reUseForProvincias();
         break;
-        case '':
-            var arrayCiudades = ['Distrito', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',];
+        case 'HUANUCO':
+            var arrayCiudades = ['Distrito', 'HUANUCO', 'CHINCHAO', 'CHURUBAMBA', 'QUISQUI', 'SAN FRANCISCO DE CAYRAN', 'SAN PEDRO DE CHAULAN', 'SANTA MARIA DEL VALLE', 'YARUMAYO', 'PILLCO MARCA', 'YACUS', 'SAN PABLO DE PILLAO'];
             reUseForProvincias();
         break;
-        case '':
-            var arrayCiudades = ['Distrito', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',];
+        case 'AMBO':
+            var arrayCiudades = ['Distrito', 'AMBO', 'CAYNA', 'COLPAS', 'HUACAR', 'SAN FRANCISCO', 'SAN RAFAEL'];
             reUseForProvincias();
         break;
-        case '':
-            var arrayCiudades = ['Distrito', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',];
+        case 'DOS DE MAYO':
+            var arrayCiudades = ['Distrito', 'MARIAS', 'QUIVILLA', 'SILLAPATA', 'YANAS'];
             reUseForProvincias();
         break;
-        case '':
-            var arrayCiudades = ['Distrito', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',];
+        case 'HUAMALIES':
+            var arrayCiudades = ['Distrito', 'ARANCAY', 'CHAVIN DE PARIARCA', 'JIRCAN', 'MONZON', 'PUNCHAO', 'PUÑOS', 'SINGA', 'TANTAMAYO'];
             reUseForProvincias();
         break;
-        case '':
-            var arrayCiudades = ['Distrito', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',];
+        case 'LEONCIO PRADO':
+            var arrayCiudades = ['Distrito', 'DANIEL ALOMIA ROBLES', 'HERMILIO VALDIZAN', 'MARIANO DAMASO BERAUN', 'PUCAYACU', 'CASTILLO GRANDE', 'PUEBLO NUEVO', 'SANTO DOMINGO DE ANDA'];
             reUseForProvincias();
         break;
-        case '':
-            var arrayCiudades = ['Distrito', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',];
+        case 'MARAÑON':
+            var arrayCiudades = ['Distrito', 'CHOLON', 'SAN BUENAVENTURA', 'LA MORADA', 'SANTA ROSA DE ALTO YANAJANCA'];
             reUseForProvincias();
         break;
-        case '':
-            var arrayCiudades = ['Distrito', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',];
+        case 'PACHITEA':
+            var arrayCiudades = ['Distrito', 'MOLINO', 'UMARI'];
             reUseForProvincias();
         break;
-        case '':
-            var arrayCiudades = ['Distrito', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',];
+        case 'PUERTO INCA':
+            var arrayCiudades = ['Distrito', 'YUYAPICHIS'];
             reUseForProvincias();
         break;
-        case '':
-            var arrayCiudades = ['Distrito', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',];
+        case 'LAURICOCHA':
+            var arrayCiudades = ['Distrito', 'JESUS', 'BAÑOS', 'RONDOS', 'SAN FRANCISCO DE ASIS', 'SAN MIGUEL DE CAURI'];
             reUseForProvincias();
         break;
-        case '':
-            var arrayCiudades = ['Distrito', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',];
+        case 'YAROWILCA':
+            var arrayCiudades = ['Distrito', 'CHAVINILLO', 'CAHUAC', 'CHACABAMBA', 'APARICIO POMARES', 'JACAS CHICO ', 'OBAS'];
             reUseForProvincias();
         break;
-        case '':
-            var arrayCiudades = ['Distrito', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',];
+        case 'ICA':
+            var arrayCiudades = ['Distrito', 'LA TINGUIÑA', 'OCUCAJE', 'PARCONA', 'PUEBLO NUEVO', 'SAN JOSE DE LOS MOLINOS', 'YAUCA DEL ROSARIO'];
             reUseForProvincias();
         break;
-        case '':
-            var arrayCiudades = ['Distrito', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',];
+        case 'CHINCHA':
+            var arrayCiudades = ['Distrito', 'SAN PEDRO DE HUACARPANA'];
             reUseForProvincias();
         break;
-        case '':
-            var arrayCiudades = ['Distrito', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',];
+        case 'NASCA':
+            var arrayCiudades = ['Distrito', 'CHANGUILLO'];
             reUseForProvincias();
         break;
-        case '':
-            var arrayCiudades = ['Distrito', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',];
+        case 'PALPA':
+            var arrayCiudades = ['Distrito', 'RIO GRANDE', 'SANTA CRUZ', 'TIBILLO'];
             reUseForProvincias();
         break;
-        case '':
-            var arrayCiudades = ['Distrito', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',];
+        case 'PISCO':
+            var arrayCiudades = ['Distrito', 'SAN CLEMENTE'];
             reUseForProvincias();
         break;
-        case '':
-            var arrayCiudades = ['Distrito', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',];
+        case 'HUANCAYO':
+            var arrayCiudades = ['Distrito', 'HUANCAYO', 'CARHUACALLANGA', 'CHACAPAMPA', 'CHICCHE', 'CHILCA', 'CHONGOS ALTO', 'COLCA', 'CULLHUAS', 'HUASICANCHA', 'INGENIO', 'PARIAHUANCA', 'PILCOMAYO', 'PUCARA', 'SAN AGUSTIN', 'SAN JERONIMO DE TUNAN', 'SAÑO', 'SAPALLANGA', 'SANTO DOMINGO DE ACOBAMBA', 'VIQUES'];
             reUseForProvincias();
         break;
-        case '':
-            var arrayCiudades = ['Distrito', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',];
+        case 'CONCEPCION':
+            var arrayCiudades = ['Distrito', 'CONCEPCION', 'ACO', 'CHAMBARA', 'COCHAS', 'MANZANARES', 'MARISCAL CASTILLA', 'MATAHUASI', 'MITO', 'NUEVE DE JULIO', 'ORCOTUNA'];
             reUseForProvincias();
         break;
-        case '':
-            var arrayCiudades = ['Distrito', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',];
+        case 'CHANCHAMAYO':
+            var arrayCiudades = ['Distrito', 'PERENE', 'PICHANAQUI', 'SAN LUIS DE SHUARO', 'VITOC'];
             reUseForProvincias();
         break;
-        case '':
-            var arrayCiudades = ['Distrito', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',];
+        case 'JAUJA':
+            var arrayCiudades = ['Distrito', 'ACOLLA', 'ATAURA', 'CANCHAYLLO', 'CURICACA', 'EL MANTARO', 'HUAMALI', 'HUARIPAMPA', 'HUERTAS', 'JANJAILLO', 'LEONOR ORDOÑEZ', 'LLOCLLAPAMPA', 'MARCO', 'MASMA CHICCHE', 'MOLINOS', 'MONOBAMBA', 'MUQUI', 'PACA', 'PANCAN', 'PARCO', 'POMACANCHA', 'RICRAN', 'SAN LORENZO ', 'SAN PEDRO DE CHUNAN', 'SAUSA', 'TUNAN MARCA', 'YAULI', 'YAUYOS', 'CARHUAMAYO', 'ONDORES'];
             reUseForProvincias();
         break;
-        case '':
-            var arrayCiudades = ['Distrito', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',];
+        case 'JUNIN':
+            var arrayCiudades = ['Distrito', 'CARHUAMAYO', 'ONDORES'];
             reUseForProvincias();
         break;
-        case '':
-            var arrayCiudades = ['Distrito', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',];
+        case 'SATIPO':
+            var arrayCiudades = ['Distrito', 'SATIPO', 'LLAYLLA', 'MAZAMARI', 'PAMPA HERMOSA', 'RIO NEGRO', 'RIO TAMBO', 'VIZCATÁN DEL ENE'];
             reUseForProvincias();
         break;
-        case '':
-            var arrayCiudades = ['Distrito', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',];
+        case 'TARMA':
+            var arrayCiudades = ['Distrito', 'ACOBAMBA', 'HUASAHUASI', 'PALCAMAYO', 'TAPO'];
             reUseForProvincias();
         break;
-        case '':
-            var arrayCiudades = ['Distrito', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',];
+        case 'YAULI':
+            var arrayCiudades = ['Distrito', 'CHACAPALPA', 'HUAY-HUAY', 'PACCHA', 'YAULI'];
             reUseForProvincias();
         break;
-        case '':
-            var arrayCiudades = ['Distrito', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',];
+        case 'CHUPACA':
+            var arrayCiudades = ['Distrito', 'AHUAC', 'CHONGOS BAJO', 'HUACHAC', 'SAN JUAN DE ISCOS', 'TRES DE DICIEMBRE', 'YANACANCHA'];
             reUseForProvincias();
         break;
-        case '':
-            var arrayCiudades = ['Distrito', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',];
+        case 'TRUJILLO':
+            var arrayCiudades = ['Distrito', 'FLORENCIA DE MORA', 'LA ESPERANZA', 'POROTO', 'SIMBAL'];
             reUseForProvincias();
         break;
-        case '':
-            var arrayCiudades = ['Distrito', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',];
+        case 'ASCOPE':
+            var arrayCiudades = ['Distrito', 'ASCOPE', 'CHICAMA', 'RAZURI', 'CASA GRANDE'];
             reUseForProvincias();
         break;
-        case '':
-            var arrayCiudades = ['Distrito', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',];
+        case 'BOLIVAR':
+            var arrayCiudades = ['Distrito', 'BAMBAMARCA', 'LONGOTEA'];
             reUseForProvincias();
         break;
-        case '':
-            var arrayCiudades = ['Distrito', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',];
+        case 'CHEPEN':
+            var arrayCiudades = ['Distrito', 'PUEBLO NUEVO'];
             reUseForProvincias();
         break;
-        case '':
-            var arrayCiudades = ['Distrito', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',];
+        case 'OTUZCO':
+            var arrayCiudades = ['Distrito', 'OTUZCO', 'AGALLPAMPA', 'CHARAT', 'MACHE', 'PARANDAY', 'USQUIL'];
             reUseForProvincias();
         break;
-        case '':
-            var arrayCiudades = ['Distrito', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',];
+        case 'PACASMAYO':
+            var arrayCiudades = ['Distrito', 'SAN PEDRO DE LLOC', 'JEQUETEPEQUE', 'SAN JOSE'];
             reUseForProvincias();
         break;
-        case '':
-            var arrayCiudades = ['Distrito', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',];
+        case 'PATAZ':
+            var arrayCiudades = ['Distrito', 'BULDIBUYO', 'ONGON', 'SANTIAGO DE CHALLAS'];
             reUseForProvincias();
         break;
-        case '':
-            var arrayCiudades = ['Distrito', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',];
+        case 'SANCHEZ CARRION':
+            var arrayCiudades = ['Distrito', 'COCHORCO', 'CURGOS', 'SANAGORAN', 'SARTIMBAMBA'];
             reUseForProvincias();
         break;
-        case '':
-            var arrayCiudades = ['Distrito', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',];
+        case 'SANTIAGO DE CHUCO':
+            var arrayCiudades = ['Distrito', 'SANTIAGO DE CHUCO', 'ANGASMARCA', 'MOLLEBAMBA', 'SANTA CRUZ DE CHUCA', 'SITABAMBA'];
             reUseForProvincias();
         break;
-        case '':
-            var arrayCiudades = ['Distrito', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',];
+        case 'GRAN CHIMU':
+            var arrayCiudades = ['Distrito', 'COMPIN'];
             reUseForProvincias();
         break;
-        case '':
-            var arrayCiudades = ['Distrito', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',];
+        case 'VIRU':
+            var arrayCiudades = ['Distrito', 'CHAO', 'GUADALUPITO'];
             reUseForProvincias();
         break;
-        case '':
-            var arrayCiudades = ['Distrito', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',];
+        case 'CHICLAYO':
+            var arrayCiudades = ['Distrito', 'CHONGOYAPE', 'ETEN', 'JOSE LEONARDO ORTIZ', 'LAGUNAS', 'OYOTUN', 'PICSI', 'SANTA ROSA', 'CAYALTI', 'PUCALA'];
             reUseForProvincias();
         break;
-        case '':
-            var arrayCiudades = ['Distrito', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',];
+        case 'FERREÑAFE':
+            var arrayCiudades = ['Distrito', 'MANUEL ANTONIO MESONES MURO', 'PUEBLO NUEVO'];
             reUseForProvincias();
         break;
-        case '':
-            var arrayCiudades = ['Distrito', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',];
+        case 'LAMBAYEQUE':
+            var arrayCiudades = ['Distrito', 'CHOCHOPE', 'PACORA'];
             reUseForProvincias();
         break;
-        case '':
-            var arrayCiudades = ['Distrito', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',];
+        case 'LIMA':
+            var arrayCiudades = ['Distrito', 'ATE', 'CARABAYLLO', 'JESUS MARIA', 'LINCE', 'LOS OLIVOS', 'LURIGANCHO', 'MAGDALENA DEL MAR', 'PUEBLO LIBRE', 'MIRAFLORES', 'PACHACAMAC', 'PACHACAMAC', 'SAN ISIDRO', 'SAN MARTIN DE PORRES', 'SANTA ROSA', 'SURQUILLO', 'VILLA MARIA DEL TRIUNFO'];
             reUseForProvincias();
         break;
-        case '':
-            var arrayCiudades = ['Distrito', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',];
+        case 'BARRANCA':
+            var arrayCiudades = ['Distrito', 'PARAMONGA', 'PATIVILCA', 'SUPE PUERTO'];
             reUseForProvincias();
         break;
-        case '':
-            var arrayCiudades = ['Distrito', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',];
+        case 'CAJATAMBO':
+            var arrayCiudades = ['Distrito', 'CAJATAMBO', 'COPA', 'GORGOR', 'HUANCAPON', 'MANAS'];
             reUseForProvincias();
         break;
-        case '':
-            var arrayCiudades = ['Distrito', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',];
+        case 'CANTA':
+            var arrayCiudades = ['Distrito', 'ARAHUAY', 'HUAMANTANGA', 'HUAROS', 'LACHAQUI'];
             reUseForProvincias();
         break;
-        case '':
-            var arrayCiudades = ['Distrito', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',];
+        case 'CAÑETE':
+            var arrayCiudades = ['Distrito', 'CERRO AZUL', 'SANTA CRUZ DE FLORES'];
             reUseForProvincias();
         break;
-        case '':
-            var arrayCiudades = ['Distrito', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',];
+        case 'HUARAL':
+            var arrayCiudades = ['Distrito', 'ATAVILLOS ALTO', 'ATAVILLOS BAJO', 'LAMPIAN', 'IHUARI', 'SUMBILCA', 'VEINTISIETE DE NOVIEMBRE'];
             reUseForProvincias();
         break;
-        case '':
-            var arrayCiudades = ['Distrito', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',];
+        case 'HUAROCHIRI':
+            var arrayCiudades = ['Distrito', 'CUENCA', 'HUANZA', 'HUAROCHIRI', 'LAHUAYTAMBO', 'SAN ANTONIO', 'SAN DAMIAN', 'SAN JUAN DE IRIS', 'SAN LORENZO DE QUINTI ', 'SAN PEDRO DE CASTA', 'SAN PEDRO DE HUANCAYRE', 'SANGALLAYA', 'SANTA CRUZ DE COCACHACRA', 'SANTIAGO DE ANCHUCAYA', 'SURCO'];
             reUseForProvincias();
         break;
-        case '':
-            var arrayCiudades = ['Distrito', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',];
+        case 'HUAURA':
+            var arrayCiudades = ['Distrito', 'AMBAR', 'HUALMAY', 'LEONCIO PRADO', 'SANTA LEONO', 'SANTA MARIA', 'VEGUETA'];
             reUseForProvincias();
         break;
-        case '':
-            var arrayCiudades = ['Distrito', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',];
+        case 'OYON':
+            var arrayCiudades = ['Distrito', 'ANDAJES', 'CAUJUL'];
             reUseForProvincias();
         break;
-        case '':
-            var arrayCiudades = ['Distrito', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',];
+        case 'YAUYOS':
+            var arrayCiudades = ['Distrito', 'AYAVIRI', 'CHOCOS', 'COCHAS', 'HUANCAYA', 'HUANGASCAR', 'HUANTAN', 'HUAÑEC', 'LARAOS', 'LINCHA', 'MADEAN', 'MIRAFLORES', 'OMAS', 'PUTINZA', 'QUINCHES', 'SAN JOAQUIN', 'TANTA', 'TAURIPAMPA', 'TUPE', 'VIÑAC'];
             reUseForProvincias();
         break;
-        case '':
-            var arrayCiudades = ['Distrito', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',];
+        case 'MAYNAS':
+            var arrayCiudades = ['Distrito', 'ALTO NANAY', 'FERNANDO LORES', 'INDIANA', 'LAS AMAZONAS', 'MAZAN', 'NAPO', 'TORRES CAUSANA', 'BELEN'];
             reUseForProvincias();
         break;
-        case '':
-            var arrayCiudades = ['Distrito', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',];
+        case 'ALTO AMAZONAS':
+            var arrayCiudades = ['Distrito', 'YURIMAGUAS', 'BALSAPUERTO', 'JEBEROS', 'LAGUNAS', 'SANTA CRUZ'];
             reUseForProvincias();
         break;
-        case '':
-            var arrayCiudades = ['Distrito', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',];
+        case 'LORETO':
+            var arrayCiudades = ['Distrito', 'TROMPETEROS', 'URARINAS'];
             reUseForProvincias();
         break;
-        case '':
-            var arrayCiudades = ['Distrito', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',];
+        case 'MARISCAL RAMON CASTILLA':
+            var arrayCiudades = ['Distrito', 'YAVARI'];
             reUseForProvincias();
         break;
-        case '':
-            var arrayCiudades = ['Distrito', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',];
+        case 'REQUENA':
+            var arrayCiudades = ['Distrito', 'ALTO TAPICHE', 'MAQUIA', 'SOPLIN', 'TAPICHE', 'JENARO HERRERA', 'YAQUERANA'];
             reUseForProvincias();
         break;
-        case '':
-            var arrayCiudades = ['Distrito', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',];
+        case 'UCAYALI':
+            var arrayCiudades = ['Distrito', 'INAHUAYA', 'PADRE MARQUEZ', 'PAMPA HERMOSA', 'SARAYACU', 'VARGAS GUERRA'];
             reUseForProvincias();
         break;
-        case '':
-            var arrayCiudades = ['Distrito', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',];
+        case 'DATEM DEL MARAÑON':
+            var arrayCiudades = ['Distrito', 'CAHUAPANAS', 'MORONA', 'PASTAZA', 'ANDOAS'];
             reUseForProvincias();
         break;
-        case '':
-            var arrayCiudades = ['Distrito', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',];
+        case 'PUTUMAYO':
+            var arrayCiudades = ['Distrito', 'PUTUMAYO', 'ROSA PANDURO', 'TENIENTE MANUEL CLAVERO', 'YAGUAS'];
             reUseForProvincias();
         break;
-        case '':
-            var arrayCiudades = ['Distrito', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',];
+        case 'TAMBOPATA':
+            var arrayCiudades = ['Distrito', 'TAMBOPATA'];
             reUseForProvincias();
         break;
-        case '':
-            var arrayCiudades = ['Distrito', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',];
+        case 'MANU':
+            var arrayCiudades = ['Distrito', 'MANU', 'FITZCARRALD', 'MADRE DE DIOS'];
             reUseForProvincias();
         break;
-        case '':
-            var arrayCiudades = ['Distrito', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',];
+        case 'MARISCAL NIETO':
+            var arrayCiudades = ['Distrito', 'MOQUEGUA', 'CUCHUMBAYA', 'SAN CRISTOBAL', 'TORATA'];
             reUseForProvincias();
         break;
-        case '':
-            var arrayCiudades = ['Distrito', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',];
+        case 'GENERAL SANCHEZ CERRO':
+            var arrayCiudades = ['Distrito', 'CHOJATA', 'LA CAPILLA', 'LLOQUE', 'MATALAQUE'];
             reUseForProvincias();
         break;
-        case '':
-            var arrayCiudades = ['Distrito', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',];
+        case 'ILO':
+            var arrayCiudades = ['Distrito', 'ILO', 'PACOCHA'];
             reUseForProvincias();
         break;
-        case '':
-            var arrayCiudades = ['Distrito', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',];
+        case 'PASCO':
+            var arrayCiudades = ['Distrito', 'HUACHON', 'HUARIACA', 'NINACACA', 'PAUCARTAMBO', 'TICLACAYAN', 'TINYAHUARCO', 'YANACANCHA'];
             reUseForProvincias();
         break;
-        case '':
-            var arrayCiudades = ['Distrito', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',];
+        case 'DANIEL ALCIDES CARRION':
+            var arrayCiudades = ['Distrito', 'GOYLLARISQUIZGA', 'PAUCAR', 'SAN PEDRO DE PILLAO'];
             reUseForProvincias();
         break;
-        case '':
-            var arrayCiudades = ['Distrito', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',];
+        case 'OXAPAMPA':
+            var arrayCiudades = ['Distrito', 'OXAPAMPA', 'HUANCABAMBA', 'PALCAZU', 'POZUZO', 'VILLA RICA', 'CONSTITUCIÓN'];
+            reUseForProvincias();
+        break;
+        case 'PIURA':
+            var arrayCiudades = ['Distrito', 'EL TALLAN', 'LA ARENA', 'TAMBO GRANDE'];
+            reUseForProvincias();
+        break;
+        case 'AYABACA':
+            var arrayCiudades = ['Distrito', 'JILILI', 'MONTERO', 'PACAIPAMPA', 'PAIMAS', 'SICCHEZ', 'SUYO'];
+            reUseForProvincias();
+        break;
+        case 'HUANCABAMBA':
+            var arrayCiudades = ['Distrito', 'CANCHAQUE', 'SAN MIGUEL DE EL FAIQUE', 'SONDORILLO'];
+            reUseForProvincias();
+        break;
+        case 'MORROPON':
+            var arrayCiudades = ['Distrito', 'BUENOS AIRES', 'LA MATANZA', 'MORROPON', 'SALITRAL', 'SANTA CATALINA DE MOSSA', 'SANTO DOMINGO', 'YAMANGO'];
+            reUseForProvincias();
+        break;
+        case 'PAITA':
+            var arrayCiudades = ['Distrito', 'COLAN', 'LA HUACA', 'TAMARINDO', 'VICHAYAL'];
+            reUseForProvincias();
+        break;
+        case 'SULLANA':
+            var arrayCiudades = ['Distrito', 'SULLANA', 'IGNACIO ESCUDERO', 'QUERECOTILLO'];
+            reUseForProvincias();
+        break;
+        case 'SECHURA':
+            var arrayCiudades = ['Distrito', 'SECHURA', 'BELLAVISTA DE LA UNION', 'BERNAL', 'VICE'];
+            reUseForProvincias();
+        break;
+        case 'PUNO':
+            var arrayCiudades = ['Distrito', 'PUNO', 'ACORA', 'AMANTANI', 'ATUNCOLLA', 'CAPACHICA', 'CHUCUITO', 'COATA', 'HUATA', 'MAÑAZO', 'PAUCARCOLLA', 'PICHACANI', 'PLATERIA', 'SAN ANTONIO', 'TIQUILLACA', 'VILQUE'];
+            reUseForProvincias();
+        break;
+        case 'AZANGARO':
+            var arrayCiudades = ['Distrito', 'AZANGARO', 'ACHAYA', 'ARAPA', 'ASILLO', 'CAMINACA', 'JOSE DOMINGO CHOQUEHUANCA', 'POTONI', 'SAMAN', 'SAN ANTON', 'SAN JOSE', 'SAN JUAN DE SALINAS', 'SANTIAGO DE PUPUJA'];
+            reUseForProvincias();
+        break;
+        case 'CARABAYA':
+            var arrayCiudades = ['Distrito', 'AJOYANI', 'AYAPATA', 'COASA', 'CORANI', 'CRUCERO', 'OLLACHEA', 'SAN GABAN ', 'USICAYOS'];
+            reUseForProvincias();
+        break;
+        case 'CHUCUITO':
+            var arrayCiudades = ['Distrito', 'DESAGUADERO', 'HUACULLANI', 'KELLUYO', 'PISACOMA', 'POMATA'];
+            reUseForProvincias();
+        break;
+        case 'EL COLLAO':
+            var arrayCiudades = ['Distrito', 'ILAVE', 'CAPAZO', 'PILCUYO', 'SANTA ROSA', 'CONDURIRI'];
+            reUseForProvincias();
+        break;
+        case 'HUANCANE':
+            var arrayCiudades = ['Distrito', 'HUANCANE', 'HUATASANI', 'INCHUPALLA', 'PUSI', 'ROSASPATA', 'TARACO'];
+            reUseForProvincias();
+        break;
+        case 'LAMPA':
+            var arrayCiudades = ['Distrito', 'LAMPA', 'CABANILLA', 'CALAPUJA', 'NICASIO', 'OCUVIRI', 'PALCA', 'PUCARA', 'SANTA LUCIA'];
+            reUseForProvincias();
+        break;
+        case 'MELGAR':
+            var arrayCiudades = ['Distrito', 'AYAVIRI', 'ANTAUTA', 'CUPI', 'LLALLI', 'NUÑOA', 'ORURILLO', 'UMACHIRI'];
+            reUseForProvincias();
+        break;
+        case 'MOHO':
+            var arrayCiudades = ['Distrito', 'MOHO', 'CONIMA', 'TILALI'];
+            reUseForProvincias();
+        break;
+        case 'SAN ANTONIO DE PUTINA':
+            var arrayCiudades = ['Distrito', 'PUTINA', 'ANANEA', 'PEDRO VILCA APAZA', 'QUILCAPUNCU', 'SINA'];
+            reUseForProvincias();
+        break;
+        case 'SAN ROMAN':
+            var arrayCiudades = ['Distrito', 'JULIACA', 'CABANA', 'CABANILLAS', 'CARACOTO', 'SAN MIGUEL'];
+            reUseForProvincias();
+        break;
+        case 'SANDIA':
+            var arrayCiudades = ['Distrito', 'SANDIA', 'CUYOCUYO', 'PATAMBUCO', 'PHARA', 'YANAHUAYA', 'ALTO INAMBARI', 'SAN PEDRO DE PUTINA PUNCO'];
+            reUseForProvincias();
+        break;
+        case 'YUNGUYO':
+            var arrayCiudades = ['Distrito', 'ANAPIA', 'COPANI', 'CUTURAPI', 'OLLARAYA', 'TINICACHI', 'UNICACHI'];
+            reUseForProvincias();
+        break;
+        case 'MOYOBAMBA':
+            var arrayCiudades = ['Distrito', 'CALZADA', 'HABANA', 'SORITOR'];
+            reUseForProvincias();
+        break;
+        case 'BELLAVISTA':
+            var arrayCiudades = ['Distrito', 'BELLAVISTA', 'BAJO BIAVO', 'HUALLAGA', 'SAN PABLO', 'SAN RAFAEL'];
+            reUseForProvincias();
+        break;
+        case 'EL DORADO':
+            var arrayCiudades = ['Distrito', 'SAN JOSE DE SISA', 'SAN MARTIN ', 'SANTA ROSA', 'SHATOJA'];
+            reUseForProvincias();
+        break;
+        case 'HUALLAGA':
+            var arrayCiudades = ['Distrito', 'SAPOSOA', 'ALTO SAPOSOA', 'EL ESLABON', 'PISCOYACU', 'SACANCHE', 'TINGO DE SAPOSOA'];
+            reUseForProvincias();
+        break;
+        case 'LAMAS':
+            var arrayCiudades = ['Distrito', 'LAMAS', 'BARRANQUITA', 'CUÑUMBUQUI', 'PINTO RECODO', 'RUMISAPA', 'SHANAO', 'TABALOSOS', 'ZAPATERO'];
+            reUseForProvincias();
+        break;
+        case 'MARISCAL CACERES':
+            var arrayCiudades = ['Distrito', 'JUANJUI', 'CAMPANILLA', 'HUICUNGO', 'PACHIZA'];
+            reUseForProvincias();
+        break;
+        case 'PICOTA':
+            var arrayCiudades = ['Distrito', 'CASPISAPA', 'PUCACACA', 'SHAMBOYACU', 'TINGO DE PONASA', 'TRES UNIDOS'];
+            reUseForProvincias();
+        break;
+        case 'RIOJA':
+            var arrayCiudades = ['Distrito', 'AWAJUN', 'ELIAS SOPLIN VARGAS', 'PARDO MIGUEL', 'POSIC', 'SAN FERNANDO', 'YORONGOS', 'YURACYACU'];
+            reUseForProvincias();
+        break;
+        case 'SAN MARTIN':
+            var arrayCiudades = ['Distrito', 'ALBERTO LEVEAU', 'CACATACHI', 'CHAZUTA', 'CHIPURANA', 'EL PORVENIR', 'HUIMBAYOC', 'JUAN GUERRA', 'LA BANDA DE SHILCAYO', 'PAPAPLAYA', 'SAUCE'];
+            reUseForProvincias();
+        break;
+        case 'TOCACHE':
+            var arrayCiudades = ['Distrito', 'TOCACHE', 'NUEVO PROGRESO', 'POLVORA'];
+            reUseForProvincias();
+        break;
+        case 'TACNA':
+            var arrayCiudades = ['Distrito', 'TACNA', 'CIUDAD NUEVA', 'POCOLLAY', 'SAMA', 'CORONEL GREGORIO ALBARRACIN LANCHIPA'];
+            reUseForProvincias();
+        break;
+        case 'CANDARAVE':
+            var arrayCiudades = ['Distrito', 'CAIRANI', 'CAMILACA', 'HUANUARA', 'QUILAHUANI'];
+            reUseForProvincias();
+        break;
+        case 'TARATA':
+            var arrayCiudades = ['Distrito', 'ESTIQUE', 'SUSAPAYA', 'TARUCACHI', 'TICACO'];
+            reUseForProvincias();
+        break;
+        case 'TUMBES':
+            var arrayCiudades = ['Distrito', 'PAMPAS DE HOSPITAL', 'SAN JUAN DE LA VIRGEN'];
+            reUseForProvincias();
+        break;
+        case 'ZARUMILLA':
+            var arrayCiudades = ['Distrito', 'MATAPALO', 'PAPAYAL'];
+            reUseForProvincias();
+        break;
+        case 'CORONEL PORTILLO':
+            var arrayCiudades = ['Distrito', 'CALLERIA', 'CAMPOVERDE', 'MASISEA', 'YARINACOCHA', 'NUEVA REQUENA', 'MANANTAY'];
+            reUseForProvincias();
+        break;
+        case 'ATALAYA':
+            var arrayCiudades = ['Distrito', 'SEPAHUA', 'YURUA'];
+            reUseForProvincias();
+        break;
+        case 'PADRE ABAD':
+            var arrayCiudades = ['Distrito', 'PADRE ABAD', 'IRAZOLA', 'CURIMANA', 'NESHUYA', 'ALEXANDER VON HUMBOLDT'];
+            reUseForProvincias();
+        break;
+        case 'PURUS':
+            var arrayCiudades = ['Distrito', 'PURUS'];
             reUseForProvincias();
         break;
     }
